@@ -1,0 +1,39 @@
+.tutorial-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding-bottom: 50px;
+}
+
+.tutorial-container .paid-free {
+  padding: 20px 10px 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tutorial-container .paid-free h6 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.tutorial-container .image-row-1 {
+  padding: 20px 10px 10px 10px;
+}
+
+.tutorial-container .image-row-1 .image-large {
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.tutorial-inner {
+  padding: 20px 10px 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=tutorial.css.map */

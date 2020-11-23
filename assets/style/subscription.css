@@ -1,0 +1,43 @@
+.sub-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.sub-container .main-row-sub {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 60px 0px 130px 0px;
+}
+
+.sub-container .main-row-sub .paragraph {
+  padding: 10px 60px 10px 60px;
+}
+
+.sub-container .main-row-sub .content {
+  background-color: #f2f7fb;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.sub-container .main-row-sub .heading {
+  color: blue;
+  opacity: 60%;
+  font-weight: 700;
+}
+
+.sub-container .main-row-sub .btn-div {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.sub-container .main-row-sub .btn-div button {
+  background-color: #1b6adf;
+  padding: 15px 50px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+}
+/*# sourceMappingURL=subscription.css.map */

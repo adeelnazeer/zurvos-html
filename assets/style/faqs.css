@@ -1,0 +1,24 @@
+.container-faq {
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.container-faq .heading {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e7e9;
+}
+
+.container-faq .question {
+  color: #1b6adf;
+}
+
+.container-faq .paragraph {
+  padding: 40px 40px;
+}
+
+.container-faq .paragraph-B {
+  padding: 40px 40px;
+}
+/*# sourceMappingURL=faqs.css.map */

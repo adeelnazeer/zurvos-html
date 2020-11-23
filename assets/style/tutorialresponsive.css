@@ -1,0 +1,92 @@
+@media (max-width: 991px) and (min-width: 768px) {
+  .image-row-1 {
+    margin: 0px;
+    padding: 20px;
+    padding: 0px 10px 0px 10px;
+  }
+  .image-row-1 .col-6 {
+    margin-top: 10px;
+    max-width: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 685px) {
+  .image-row-1 {
+    margin: 0px;
+    padding: 20px;
+    padding: 0px 10px 0px 10px;
+  }
+  .image-row-1 .col-6 {
+    margin-top: 10px;
+    max-width: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 684px) and (min-width: 568px) {
+  .image-row-1 {
+    margin: 0px;
+    padding: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0px 10px 0px 10px;
+  }
+  .image-row-1 .col-6 {
+    margin-top: 10px;
+    max-width: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 567px) and (min-width: 480px) {
+  .image-row-1 {
+    margin: 0px;
+    padding: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0px 10px 0px 10px;
+  }
+  .image-row-1 .col-6 {
+    margin-top: 10px;
+    max-width: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 479px) and (min-width: 320px) {
+  .image-row-1 {
+    margin: 0px;
+    padding: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0px 10px 0px 10px;
+  }
+  .image-row-1 .col-6 {
+    margin-top: 10px;
+    max-width: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 0px;
+  }
+}
+/*# sourceMappingURL=tutorialresponsive.css.map */

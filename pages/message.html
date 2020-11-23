@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/style/style.css" />
+    <link rel="stylesheet" href="../assets/style/responsive.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-backkground ">
+        <!--Header-->
+        <div class="container-fluid header-main-desktop">
+            <nav class="navbar navbar-light bg-light" style="background-color: #ffffff!important; padding: 10px 35px;">
+                <Link to="/post">
+                <span class="navbar-brand">
+                    <img class="logo" src="../assets/images/zurvos full color .png" alt="" />
+                </span>
+                </Link>
+                <form class="form-inline">
+                    <Link to="/gyms">
+                    <img class="icon-height mrg-right-30" src="../assets/images/icons/Search.png" alt="" />
+                    </Link>
+                    <Link to="/notification">
+                    <img class="icon-height mrg-right-30" src="../assets/images/icons/Notifications.png" alt="" />
+                    </Link>
+                    <img class="profile-height mrg-right-5 " src="../assets/images/Profile_pic_1.png" alt="" />
+                    <div class="mrg-right-30">
+                        <Link to="/profile">
+                        <span class="fnt-w-700">Turner Oaks</span>
+                        </Link>
+                        <div class="fnt-w-500">
+                            <p href="#" class="a-tag">
+                                $34.00 USD
+                            </p>
+                        </div>
+                    </div>
+                    <img class="cursor-pointer" src="../assets/images/icons/Dot_menu.png" alt="" />
+                </form>
+            </nav>
+            <!-- {show && (
+              <div class="model">
+                <div>
+                  <Link to="/message">
+                    <h6>Message</h6>
+                  </Link>
+                  <hr></hr>
+                  <Link to="/invitation">
+                    <h6>Invitations</h6>
+                  </Link>
+                  <hr></hr>
+                  <Link to="/buddy-list">
+                    <h6>Buddy List</h6>
+                  </Link>
+                  <hr></hr>
+                  <Link to="/workout-list">
+                    <h6>My Workouts LIst</h6>
+                  </Link>
+                  <hr></hr>
+                  <Link to="/order-list">
+                    <h6>Order List</h6>
+                  </Link>
+                  <hr></hr>
+                  <Link to="/subscription">
+                    <h6>My Subscription</h6>
+                  </Link>
+                  <hr></hr>
+                  <Link to="/buddy-list">
+                    <h6>Bugs Reports</h6>
+                  </Link>
+                  <hr></hr>
+                  <Link to="/payment">
+                    <h6>Add Payment Method</h6>
+                  </Link>
+                  <hr></hr>
+                  <Link to="/dashboard">
+                    <h6>Privacy Policy</h6>
+                  </Link>
+                </div>
+              </div>
+            )} -->
+        </div>
+        <!--<div class="show-for-mobile">
+            <div style="display: flex; justify-Content: space-between; align-Items: center;"
+            >
+               <Hamburger toggled={isOpen} toggle={setOpen} />
+              <div style={{ display: "flex", flex: "1", justifyContent: "center" }}>
+                <Link to="/post">
+                  <img
+                    style={{
+                      background: "white",
+                      width: "150px",
+                      height: "40px",
+                      marginRight: "50px",
+                    }}
+                    class="lower"
+                    src={Logo}
+                    alt="Not Found"
+                  />
+                </Link>
+              </div>
+              {/* <div>
+                <img class="cursor-pointer dot-img-mobile" src={Dot} alt="" />
+              </div> */}
+              {isOpen && (
+                <div class="inner-div-">
+                  <div class="d-flex jst-cont-between">
+                    <Link to="/gyms">
+                      <div>
+                        <p>Gyms Near Me</p>
+                      </div>
+                    </Link>
+                    <Link to="/tutorial">
+                      <div>
+                        <p>Tutorials</p>
+                      </div>
+                    </Link>
+                  </div>
+                  <div class="d-flex jst-cont-between">
+                    <Link to="/product">
+                      <p>Products</p>
+                    </Link>
+                    <Link to="/Build-workout">
+                      <p>Build a Workout</p>
+                    </Link>
+                  </div>
+                  <div class="d-flex jst-cont-between">
+                    <Link to="/exercise">
+                      <p>Excercise Library</p>
+                    </Link>
+                    <Link to="/workout">
+                      <p>Work Out Buddy</p>
+                    </Link>
+                  </div>
+                  <div class="d-flex jst-cont-between">
+                    <Link to="/session">
+                      <p>Sessions</p>
+                    </Link>
+                    <Link to="/transaction">
+                      <p>Transactions</p>
+                    </Link>
+                  </div>
+                  <div class="d-flex jst-cont-between">
+                    <Link to="/faqs">
+                      <p>FAQs</p>
+                    </Link>
+                    <Link to="/feedback">
+                      <p>Give FeedBack</p>
+                    </Link>
+                  </div>
+                  <div class="d-flex jst-cont-between">
+                    <Link to="/gyms">
+                      <p>Search</p>
+                    </Link>
+                    <Link to="/contact">
+                      <p>Contact Zurvos</p>
+                    </Link>
+                  </div>
+                  <div class="d-flex jst-cont-between">
+                    <Link to="/about">
+                      <p>About us</p>
+                    </Link>
+                    <Link to="/message">
+                      <p>Message</p>
+                    </Link>
+                  </div>
+                  <div class="d-flex jst-cont-between">
+                    <Link to="/invitation">
+                      <p>Invitations</p>
+                    </Link>
+                    <Link to="/buddy-list">
+                      <p>Buddy List</p>
+                    </Link>
+                  </div>
+                  <div class="d-flex jst-cont-between">
+                    <Link to="/workout-list">
+                      <p>My Workouts List</p>
+                    </Link>
+                    <Link to="/order-list">
+                      <p>Order List</p>
+                    </Link>
+                  </div>
+                  <div class="d-flex jst-cont-between">
+                    <Link to="/subscription">
+                      <p>My Subscription</p>
+                    </Link>
+                    <Link to="/buddy-list">
+                      <p>Bugs Reports</p>
+                    </Link>
+                  </div>
+                  <div class="d-flex jst-cont-between">
+                    <Link to="/payment">
+                      <p>Add Payment Method</p>
+                    </Link>
+                    <Link to="/dashboard">
+                      <p>Privacy Policy</p>
+                    </Link>
+                  </div>
+                  <div class="d-flex jst-cont-between">
+                    <Link to="/profile">
+                      <p>Profile</p>
+                    </Link>
+                    <Link to="/notification">
+                      <p>Notification</p>
+                    </Link>
+                  </div>
+                </div>
+              )} -->
+    </div>
+    </div>
+    <!-- HeaderEND  -->
+        <!-- <div class="row contaner-row"> 
+          <div class="col-3 side-nav-left mrg-top-5">-->
+            <!-- SIDE NAV -->
+    <div class="row contaner-row mrg-right-0 mrg-left-0">
+        <div class="col-3 side-nav-left mrg-top-5">
+            <div class="container-side">
+                <div class="inner-sidenav">
+                    <div class="sidenav-contents">
+                        <h5>Influencer Dashboard</h5>
+                        <a href="gymnearme.html">
+                        <h5 class="cursor-pointer">
+                            Gyms Near Me
+                        </h5>
+                      </a>
+                        <Link to="/tutorial">
+                        <h5 class="cursor-pointer">
+                            Tutorials
+                        </h5>
+                        </Link>
+                        <Link to="/product">
+                        <h5 class="cursor-pointer">
+                            Products
+                        </h5>
+                        </Link>
+                        <Link to="/Build-workout">
+                        <h5 class="cursor-pointer">
+                            Build a Workout
+                        </h5>
+                        </Link>
+                        <Link to="/exercise">
+                        <h5 class="cursor-pointer">
+                            Exercise Library
+                        </h5>
+                        </Link>
+                        <Link to="/workout">
+                        <h5 class="cursor-pointer">
+                            Work Out Buddy
+                        </h5>
+                        </Link>
+                        <Link to="/session">
+                        <h5 class="cursor-pointer">
+                            Sessions
+                        </h5>
+                        </Link>
+                        <Link to="/transaction">
+                        <h5 class="cursor-pointer">
+                            Transactions
+                        </h5>
+                        </Link>
+                        <Link to="/faqs">
+                        <h5 class="cursor-pointer">
+                            FAQs
+                        </h5>
+                        </Link>
+                        <Link to="/feedback">
+                        <h5 class="cursor-pointer">
+                            Give Feedback
+                        </h5>
+                        </Link>
+                        <Link to="/contact">
+                        <h5 class="cursor-pointer">
+                            Contact Zurvos
+                        </h5>
+                        </Link>
+                        <Link to="/about">
+                        <h5 class="cursor-pointer">
+                            About us
+                        </h5>
+                        </Link>
+                        <!-- {/* <Link to="/subscription">
+                      <h5
+                        class= "cursor-pointer"
+                        
+                      >
+                        My Subscription
+                      </h5>
+                    </Link> */} -->
+
+                        <!-- {/* <h5>Transactions</h5> */}
+                    {/* <Link to="/dashboard">
+                      <h5
+                        class={
+                          url === "/dashboard"
+                            ? "background-color cursor-pointer"
+                            : "cursor-pointer"
+                        }
+                      >
+                        Privacy Policy
+                      </h5>
+                    </Link> */} -->
+                    </div>
+                    <div class="signout-options ">
+                        <ul class="row jus-con-bet color-grey padding-40">
+                            <div>
+                                <li>Account Settings</li>
+                            </div>
+                            <div>
+
+                                <li>Log out</li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SIDE END -->
+          
+          <div class="col-6 center-container">
+            <div class="msg-main">
+                <h3>Recent messages</h3>
+                
+                  <div class="msg-contant mrg-top-20">
+                    <div class="d-flex jst-cont-between">
+                      <div class="d-flex mrg-top-15">
+                        <div>
+                          <img src="../assets/images/zym_2.png" alt="" />
+                        </div>
+                        <div class="mrg-left-20">
+                          <h6 class="fnt-w-700">George Smith</h6>
+                          <p>Lora ipsam dolor sit amet</p>
+                        </div>
+                      </div>
+                      <div>
+                        <p>May 12</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="msg-contant mrg-top-20">
+                    <div class="d-flex jst-cont-between">
+                      <div class="d-flex mrg-top-15">
+                        <div>
+                          <img src="../assets/images/zym_2.png" alt="" />
+                        </div>
+                        <div class="mrg-left-20">
+                          <h6 class="fnt-w-700">George Smith</h6>
+                          <p>Lora ipsam dolor sit amet</p>
+                        </div>
+                      </div>
+                      <div>
+                        <p>May 12</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="msg-contant mrg-top-20">
+                    <div class="d-flex jst-cont-between">
+                      <div class="d-flex mrg-top-15">
+                        <div>
+                          <img src="../assets/images/zym_2.png" alt="" />
+                        </div>
+                        <div class="mrg-left-20">
+                          <h6 class="fnt-w-700">George Smith</h6>
+                          <p>Lora ipsam dolor sit amet</p>
+                        </div>
+                      </div>
+                      <div>
+                        <p>May 12</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="msg-contant mrg-top-20">
+                    <div class="d-flex jst-cont-between">
+                      <div class="d-flex mrg-top-15">
+                        <div>
+                          <img src="../assets/images/zym_2.png" alt="" />
+                        </div>
+                        <div class="mrg-left-20">
+                          <h6 class="fnt-w-700">George Smith</h6>
+                          <p>Lora ipsam dolor sit amet</p>
+                        </div>
+                      </div>
+                      <div>
+                        <p>May 12</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="msg-contant mrg-top-20">
+                    <div class="d-flex jst-cont-between">
+                      <div class="d-flex mrg-top-15">
+                        <div>
+                          <img src="../assets/images/zym_2.png" alt="" />
+                        </div>
+                        <div class="mrg-left-20">
+                          <h6 class="fnt-w-700">George Smith</h6>
+                          <p>Lora ipsam dolor sit amet</p>
+                        </div>
+                      </div>
+                      <div>
+                        <p>May 12</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="msg-contant mrg-top-20">
+                    <div class="d-flex jst-cont-between">
+                      <div class="d-flex mrg-top-15">
+                        <div>
+                          <img src="../assets/images/zym_2.png" alt="" />
+                        </div>
+                        <div class="mrg-left-20">
+                          <h6 class="fnt-w-700">George Smith</h6>
+                          <p>Lora ipsam dolor sit amet</p>
+                        </div>
+                      </div>
+                      <div>
+                        <p>May 12</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              
+          </div>
+          <!--Right Navbar-->
+           <div class="col-3 right-sidebar">
+             <div class="zurvos-working">
+        <h4>How Zurvos Works</h4>
+        <div class="d-flex mrg-top-30">
+          <div>
+            <img src="../assets/images/Icon_1.png" alt="" />
+          </div>
+          <div class="mrg-left-20">
+            <h6>Find Gyms Near You</h6>
+            <p>Take advantage of Free Traning Programs.</p>
+          </div>
+        </div>
+        <div class="d-flex mrg-top-0">
+          <div>
+            <img src="../assets/images/Icon_2.png" alt="" />
+          </div>
+          <div class="mrg-left-20">
+            <h6>Filter to get Your Best Match.</h6>
+            <p>Take advantage of Free Traning Programs.</p>
+          </div>
+        </div>
+        <div class="d-flex mrg-top-0">
+          <div>
+            <img src="../assets/images/Icon_3.png" alt="" />
+          </div>
+          <div class="mrg-left-20">
+            <h6>Pay as You Go</h6>
+            <p>Take advantage of Free Traning Programs.</p>
+          </div>
+        </div>
+        <div class="mrg-top-50 ">
+          <h4 class="color-grey">Recent Feeds</h4>
+          <div class="d-flex mrg-top-30">
+            <div>
+              <img src="../assets/images/Profile_pic4.png" alt="" />
+            </div>
+            <div class="mrg-left-20">
+              <h6>Congratulations!</h6>
+              <p>
+                <span class="a-tag">Kevin Bruce</span> &{" "}
+                <span class="a-tag">16 others</span> liked your photos.
+              </p>
+            </div>
+          </div>
+          <hr></hr>
+          <div class="d-flex mrg-top-20">
+            <div>
+              <img src="../assets/images/Profile_pic4.png" alt="" />
+            </div>
+            <div class="mrg-left-20">
+              <h6>Congratulations!</h6>
+              <p>
+                <span class="a-tag">Kevin Bruce</span> &{" "}
+                <span class="a-tag">16 others</span> liked your photos.
+              </p>
+            </div>
+          </div>
+          <hr></hr>
+          <div class="d-flex mrg-top-20">
+            <div>
+              <img src="../assets/images/Profile_pic4.png" alt="" />
+            </div>
+            <div class="mrg-left-20">
+              <h6>Congratulations!</h6>
+              <p>
+                <span class="a-tag">Kevin Bruce</span> &{" "}
+                <span class="a-tag">16 others</span> liked your photos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+          </div>
+           <!--RightNavbar End-->
+        </div> 
+   
+    </div>
+      </div>
+
+</body>
+
+</html>

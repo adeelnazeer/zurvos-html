@@ -1,0 +1,50 @@
+.excercise-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 30px 10px 10px 10px;
+  height: 100%;
+}
+
+.excercise-container .vedio-excercise {
+  border-radius: 5px;
+  padding: 20px;
+  -webkit-box-shadow: 1px 1px 5px #c1c1c1;
+          box-shadow: 1px 1px 5px #c1c1c1;
+  margin-top: 20px;
+}
+
+.excercise-container .vedio-excercise .image-excer {
+  height: 130px;
+  border-radius: 10px;
+}
+
+.excercise-container .vedio-excercise .txt-excercise {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.excercise-container .vedio-excercise .paid-button {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: end;
+}
+
+.excercise-container .vedio-excercise .paid-button button {
+  color: #1a6adf;
+  background-color: #e3f1ff;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  padding: 4px 18px;
+}
+/*# sourceMappingURL=exercise.css.map */

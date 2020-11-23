@@ -1,0 +1,104 @@
+.profile-main {
+  border-radius: 5px;
+}
+
+.profile-main .profile-inner-img {
+  height: 200px;
+  background-image: url("../../assets/images/Timeline_image_2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.profile-main .profile-inner-img .btn-edit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 10px;
+}
+
+.profile-main .profile-inner-img .btn-edit button {
+  background-color: #837e79;
+  color: #f9f8f8;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 6px 10px;
+}
+
+.profile-main .profile-circle {
+  background-color: #ffffff;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.profile-main .profile-circle .img {
+  background-position: center;
+  width: 130px;
+  height: 130px;
+  background-image: url("../../assets/images/Product_image_78.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 500;
+  margin-top: -56px;
+  margin-left: 35%;
+  border-radius: 50%;
+}
+
+.profile-main .profile-circle .img .first {
+  width: 100%;
+  height: 100%;
+}
+
+.profile-main .profile-circle .img .first div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+}
+
+.profile-main .profile-circle .img .first img {
+  height: 38px;
+}
+
+.profile-main .footer {
+  padding-bottom: 20px;
+}
+
+.profile-main .footer p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.profile-main .footer h6 {
+  margin-bottom: 0;
+}
+
+.profile-main .footer .d-flex {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.bio-main {
+  padding: 30px 60px 30px 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.bio-main img {
+  width: 150px;
+  height: 170px;
+}
+/*# sourceMappingURL=profile.css.map */

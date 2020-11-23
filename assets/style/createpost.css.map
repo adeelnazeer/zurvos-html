@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACf,OAAO,EAAE,oBAAoB;EAC/B,gBAAgB,EAAE,OAAO;CAC1B",
+    "sources": [
+        "createpost.scss"
+    ],
+    "names": [],
+    "file": "createpost.css"
+}

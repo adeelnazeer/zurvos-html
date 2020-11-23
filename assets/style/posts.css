@@ -1,0 +1,123 @@
+.post-container {
+  border-radius: 5px;
+}
+
+.post-container .post-section-one {
+  padding: 20px 10px 10px 10px;
+  background-color: #f5f9fc;
+  border-bottom: 1px solid #eaeef1;
+}
+
+.post-container .post-row-two {
+  padding: 20px;
+  background-color: #ffffff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.post-container .post-row-two .img-height {
+  height: 50px;
+}
+
+.post-container .post-row-two textarea {
+  resize: none;
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+.post-container .post-row-two .btn-div-add-files button {
+  background-color: #eaf3fc;
+  color: #66696d;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 25px;
+  font-weight: 600;
+}
+
+.post-container .section-two {
+  border-radius: 5px;
+  border-radius: 5px;
+}
+
+.post-container .section-two .section-two-row-one {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top-left-radius: 5px;
+  padding: 20px 10px;
+}
+
+.post-container .section-two .section-two-row-one .profile-img {
+  height: 50px;
+  border-radius: 50%;
+  width: 50px;
+}
+
+.post-container .section-two .section-two-row-one .btn-follow button {
+  background-color: #eaf3fc;
+  color: #66696d;
+  outline: none;
+  border: 1px solid #dce9f6;
+  border-radius: 5px;
+  padding: 6px 25px;
+  font-weight: 600;
+}
+
+.post-container .section-two .section-two-row-one h6 {
+  margin-bottom: 0px;
+}
+
+.post-container .para {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.post-container .footer-post {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.post-container .footer-post .comments {
+  border-right: 1px solid #e2e6e9;
+  border-left: 1px solid #e2e6e9;
+}
+
+.post-container .footer-post .comments .d-flex {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.post-container .footer-post .share .d-flex {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.post-container .footer-post p {
+  margin-bottom: 0px;
+  color: #7c7f82;
+}
+
+.post-container .footer-post .a-tag {
+  font-size: 14px;
+  font-weight: 700;
+  opacity: 70%;
+}
+/*# sourceMappingURL=posts.css.map */

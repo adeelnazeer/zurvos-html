@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAMA,MAAM,EAAE,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EAC3C,AAAA,cAAc,CAAC;IACX,cAAc,EAAE,MAAM;GACvB;;;AAMP,MAAM,EAAE,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EAC3C,AAAA,cAAc,CAAC;IACX,cAAc,EAAE,MAAM;GACvB;;;AAEP,MAAM,EAAE,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EAC7C,AAAA,cAAc,CAAC;IACb,cAAc,EAAE,MAAM;GACvB",
+    "sources": [
+        "sessionresponsive.scss"
+    ],
+    "names": [],
+    "file": "sessionresponsive.css"
+}

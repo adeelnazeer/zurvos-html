@@ -1,0 +1,21 @@
+.notification-main {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px 10px;
+  height: 100%;
+}
+
+.notification-main .img-right {
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+.notification-main .img-left {
+  height: 40px;
+}
+
+.notification-main p {
+  margin-bottom: 0px;
+}
+/*# sourceMappingURL=notification.css.map */

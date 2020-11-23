@@ -1,0 +1,37 @@
+.msg-main-workout-list {
+  padding: 40px 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.msg-main-workout-list .msg-contant {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 20px 20px 20px;
+  -webkit-box-shadow: 1px 1px 5px #c1c1c1;
+          box-shadow: 1px 1px 5px #c1c1c1;
+}
+
+.msg-main-workout-list .msg-contant p {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.msg-main-workout-list .msg-contant .img {
+  height: 150px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.msg-main-workout-list .add-new-list {
+  padding: 6px 20px;
+  background-color: #226ddc;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  outline: none !important;
+  font-weight: 700;
+}
+/*# sourceMappingURL=workoutlist.css.map */

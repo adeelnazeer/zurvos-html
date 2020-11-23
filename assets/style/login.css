@@ -1,0 +1,115 @@
+.main-container-login {
+  background-color: #4b5f5c;
+}
+
+.main-container-login .inner-container {
+  padding-top: 115px;
+  padding-bottom: 30px;
+}
+
+.main-container-login .inner-container .content .content-inner {
+  margin-left: 30px;
+  padding: 20px;
+}
+
+.main-container-login .inner-container .content .content-one {
+  background-color: #f2f7fc;
+  border-radius: 25px;
+}
+
+.main-container-login .inner-container .content .content-one .image-login {
+  height: 140px;
+}
+
+.main-container-login .inner-container .content .content-one .heading {
+  font-weight: bolder;
+}
+
+.main-container-login .inner-container .content .content-one .paragraph {
+  margin-top: 30px;
+}
+
+.main-container-login .inner-container .content .content-one .hr-line {
+  width: 150px;
+}
+
+.main-container-login .inner-container .content .content-one .facebook-icon {
+  height: 50px;
+  border-radius: 5px;
+}
+
+.content-one-sign-up {
+  background-color: #f2f7fc;
+  border-radius: 10px;
+  padding: 0 !important;
+}
+
+.content-one-sign-up .top-color {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content-one-sign-up .top-color .one {
+  background-color: #216cdc;
+  height: 12px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border-top-left-radius: 10px;
+}
+
+.content-one-sign-up .top-color .two {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 12px;
+  border-top-right-radius: 10px;
+  background-color: #d8e5f9;
+}
+
+.content-one-sign-up .top-color .test {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 12px;
+  border-top-right-radius: 10px;
+  background-color: #216cdc;
+}
+
+.content-one-sign-up .image-login {
+  height: 140px;
+}
+
+.content-one-sign-up .heading {
+  font-weight: bolder;
+}
+
+.content-one-sign-up .heading-div {
+  margin-top: 25px;
+}
+
+.content-one-sign-up .paragraph {
+  margin-top: 30px;
+}
+
+.content-one-sign-up .hr-line {
+  width: 150px;
+}
+
+.content-one-sign-up .facebook-icon {
+  height: 50px;
+  border-radius: 5px;
+}
+
+.content-data {
+  padding: 90px 50px 50px 50px;
+}
+
+.content-data .heading-div {
+  text-align: center;
+}
+/*# sourceMappingURL=login.css.map */
